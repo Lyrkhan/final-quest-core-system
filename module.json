@@ -1,0 +1,66 @@
+{
+  "id": "final-quest-core-system",
+  "title": "Final Quest Core System",
+  "description": "Core system of Final Quest 8 with DnD5E rules",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.316"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "main.js"
+  ],
+  "styles": [
+    "css/style.css"
+  ],
+  "authors": [
+    {
+      "name": "Lyrkhan",
+      "url": "https://github.com/Lyrkhan"
+    }
+  ],
+  "url": "https://github.com/Lyrkhan/final-quest-core-system",
+  "bugs": "https://github.com/Lyrkhan/final-quest-core-system/issues",
+  "flags": {
+    "allowBugReporter": true
+  },
+  "changelog": "https://github.com/Lyrkhan/final-quest-core-system/releases",
+  "manifest": "https://github.com/Lyrkhan/final-quest-core-system/releases/latest/download/module.json",
+  "download": "https://github.com/Lyrkhan/final-quest-core-system/releases/download/v0.0.1/module.zip",
+  "packs": [
+    {
+      "name": "items-fq",
+      "label": "Items-FQ",
+      "path": "packs/items-fq",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ]
+}

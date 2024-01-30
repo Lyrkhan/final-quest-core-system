@@ -1,0 +1,14 @@
+{
+  "FQBS": {
+    "ActionPoints": "Action points",
+    "ActionPointsMax": "Max action points",
+    "ActionPointsCurrent": "Current action points",
+    "Mana": "Mana",
+    "ManaCurrent": "Current mana",
+    "ManaMax": "Max mana",
+    "Zeal": "Zeal",
+    "ZealCurrent": "Current zeal",
+    "ZealMax": "Max zeal",
+    "ZealInit": "Init value of zeal"
+  }
+}
