@@ -57,15 +57,8 @@ export class FQCharacters {
     static renderActorSheet5e = (app, element, options) => {
         let $element = $(element);
         let $ac = $element.find('.attribute.armor');
-        let $health = $element.find('.attribute.health');
-
-        console.log("HOUHOU")
         // Generate Tooltip On Actor Sheet Load
         $ac.replaceWith(FQCharacters.primaryAttributes(game, options));
-        //$ac.remove();
-
-        // And New UI
-        //$ac.prepend($challengeArmor);
 
     }
 }
